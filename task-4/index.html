@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Elite Music Library</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Music Library</h1>
+        <input type="text" id="searchBar" placeholder="Search by singer..." onkeyup="filterSongs()">
+    </header>
+
+    <div class="grid-container" id="playlist">
+        <!-- Example card: Copy this for all 20 songs -->
+        <div class="music-card" data-singer="Atif Aslam">
+            <h3>Aadat</h3>
+            <p class="singer">Atif Aslam</p>
+            <a href="song1.mp3" download class="btn-download">Download</a>
+        </div>
+        <!-- Add 19 more cards here -->
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

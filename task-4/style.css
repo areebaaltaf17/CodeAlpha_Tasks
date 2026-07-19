@@ -1,0 +1,58 @@
+body {
+    background: #0f0f0f;
+    color: #f0f0f0;
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+header { text-align: center; margin-bottom: 40px; }
+
+h1 { color: #C68E17; letter-spacing: 2px; }
+
+#searchBar {
+    width: 300px;
+    padding: 12px;
+    background: transparent;
+    border: 1px solid #C68E17;
+    border-radius: 25px;
+    color: #98FF98;
+    text-align: center;
+    outline: none;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 25px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.music-card {
+    background: rgba(25, 25, 25, 0.8);
+    padding: 25px;
+    border-radius: 20px;
+    border: 1px solid rgba(198, 142, 23, 0.5);
+    text-align: center;
+    transition: 0.4s ease;
+}
+
+.music-card:hover {
+    border-color: #98FF98;
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(152, 255, 152, 0.1);
+}
+
+.singer { color: #98FF98; font-size: 0.9rem; margin-top: -10px; }
+
+.btn-download {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 8px 20px;
+    background: #C68E17;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    font-size: 0.8rem;
+}
